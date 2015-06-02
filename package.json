@@ -9,7 +9,7 @@
   "author": "Guy Bedford",
   "license": "MIT",
   "dependencies": {
-    "es6-module-loader": "^0.16.4",
+    "es6-module-loader": "git://github.com/ModuleLoader/es6-module-loader.git",
     "when": "^3.7.2"
   },
   "devDependencies": {
