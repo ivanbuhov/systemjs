@@ -55,6 +55,7 @@ dist/system.src.js: lib/*.js $(ESML)/*.js
 	cat \
 		lib/wrapper-start.js \
 		$(ESML)/wrapper-start.js \
+			$(ESML)/url-polyfill.js \
 			$(ESML)/loader.js \
 			$(ESML)/dynamic-only.js \
 			$(ESML)/system.js \
